@@ -1,0 +1,9 @@
+Factory Method
+
+This helps us access functionality without caring about implementation
+Advantages includes
+1. Separation of concerns
+2. Allow testability
+3. Reduction in bug
+
+Example : Given that we want to 

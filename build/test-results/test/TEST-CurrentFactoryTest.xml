@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CurrentFactoryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-29T15:34:53" hostname="danzuckers-MBP" time="0.037">
+  <properties/>
+  <testcase name="currencyTest()" classname="CurrentFactoryTest" time="0.037"/>
+  <system-out><![CDATA[Nigeria Currency : NGR
+Germany Currency : GER
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

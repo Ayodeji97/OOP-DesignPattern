@@ -1,0 +1,8 @@
+Singleton Explanation
+1. In Singleton, you only have one instance in your service or component in your application
+2. It is a single point of access to a resource
+3. Usage includes but not limited to
+    i. Network manager
+    ii. Database Access
+    iii. Logging
+    iv. Utility Classes
