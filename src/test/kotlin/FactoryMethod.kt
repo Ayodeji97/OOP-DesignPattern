@@ -1,3 +1,5 @@
+import factorymethod.virusexample.VirusFactory
+import factorymethod.virusexample.VirusType
 import org.assertj.core.api.Assertions
 import org.junit.jupiter.api.Test
 
@@ -36,3 +38,4 @@ class CurrentFactoryTest {
         Assertions.assertThat(germanyCurrency).isEqualTo("GER")
     }
 }
+
