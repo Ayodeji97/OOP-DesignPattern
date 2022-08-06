@@ -6,4 +6,5 @@ Advantages includes
 2. Allow testability
 3. Reduction in bug
 
-Example : Given that we want to 
+Resources :
+1. https://narbase.com/2020/06/15/design-patterns-factory-method-with-kotlin-examples/

@@ -1,8 +1,7 @@
 package factorymethod.virusexample
 
-import factorymethod.documentexample.document.DocumentType
-import factorymethod.documentexample.document.application.Application
-import factorymethod.virusexample.VirusFactory.Companion.makeVirus
+import factorymethod.bakeryexample.bakeryapplication.BakeryFactory
+import factorymethod.bakeryexample.bakeryapplication.BakeryProductType
 
 fun main() {
 
@@ -12,13 +11,25 @@ fun main() {
     makeCoronaVirus.type()
     makeCoronaVirus.mutate()
 
-    **/
+     **/
 
     /**
      * DOCUMENT EXAMPLE
      * */
-    val wordApplication = Application.getApplicationDocument(DocumentType.WORD)
+
+    /**
+     *        val wordApplication = Application.getApplicationDocument(DocumentType.WORD)
     val wordDocument = wordApplication.createDocument()
     wordDocument.showDocumentInfo()
+     * */
+
+    /***
+     * BAKERY FACTORY
+     * */
+
+    val breadProduct = BakeryFactory.makeBakeryProduct(BakeryProductType.BREAD_PRODUCT)
+    val makeBreadProduct = breadProduct.makeProduct()
+    makeBreadProduct.bake()
+    makeBreadProduct.sellBakeryProduct()
 
 }
